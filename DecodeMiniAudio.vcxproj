@@ -136,6 +136,12 @@
     <ClCompile Include="AudConverter\AudioConverter.cpp" />
     <ClCompile Include="AudConverter\ConvertMain.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md">
+      <SubType>
+      </SubType>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
