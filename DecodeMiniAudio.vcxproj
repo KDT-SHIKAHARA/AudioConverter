@@ -24,6 +24,7 @@
     <ProjectGuid>{706f12d4-2495-41aa-b31c-92a4e10f9454}</ProjectGuid>
     <RootNamespace>DecodeMiniAudio</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AudioConverter</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

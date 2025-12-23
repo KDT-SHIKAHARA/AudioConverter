@@ -6,7 +6,7 @@
 #if NONE_ARGS_TEST
 int main()
 #else
-int main(int argc, wchar_t* argv[])
+int main(int argc, char* argv[])
 #endif // NONE_ARGS_TEST
 {
 #if NONE_ARGS_TEST
@@ -17,7 +17,7 @@ int main(int argc, wchar_t* argv[])
 	//	.exe ‚¾‚¯‚È‚ç
 	if (argc < 2)
 	{
-		std::wcout << L"Input file not found" << std::endl;
+		std::wcout << L"Usage: PlayAud.exe <input.aud>" << std::endl;
 		return -1;
 	}
 
